@@ -3,9 +3,9 @@
 #include "Capsule.h"
 
 // Toaster
-#include <InputManager.h>
-#include <SpriteBatch.h>
-#include <TileSheet.h>
+#include <Toaster/InputManager.h>
+#include <Toaster/SpriteBatch.h>
+#include <Toaster/TileSheet.h>
 
 namespace Ninja
 {

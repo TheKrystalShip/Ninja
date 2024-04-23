@@ -3,8 +3,8 @@
 #include "Box.h"
 
 // Toaster
-#include <IMainGame.h>
-#include <ResourceManager.h>
+#include <Toaster/IMainGame.h>
+#include <Toaster/ResourceManager.h>
 
 // External
 #include <GLM/glm.hpp>

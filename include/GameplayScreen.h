@@ -5,13 +5,13 @@
 #include "Player.h"
 
 // Toaster
-#include <Camera2D.h>
-#include <DebugRenderer.h>
-#include <GLSLProgram.h>
-#include <Texture2D.h>
-#include <IGameScreen.h>
-#include <SpriteBatch.h>
-#include <Window.h>
+#include <Toaster/Camera2D.h>
+#include <Toaster/DebugRenderer.h>
+#include <Toaster/GLSLProgram.h>
+#include <Toaster/Texture2D.h>
+#include <Toaster/IGameScreen.h>
+#include <Toaster/SpriteBatch.h>
+#include <Toaster/Window.h>
 
 // Box2D
 #include <box2d/box2d.h>

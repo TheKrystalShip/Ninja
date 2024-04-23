@@ -1,9 +1,9 @@
-#include "../include/Player.h"
+#include "../include/Player.h" // VSCode gets confused with other Player.h in a different directory
 
 // Toaster
-#include <DebugRenderer.h>
-#include <ResourceManager.h>
-#include <Texture2D.h>
+#include <Toaster/DebugRenderer.h>
+#include <Toaster/ResourceManager.h>
+#include <Toaster/Texture2D.h>
 
 #include <GLM/glm.hpp>
 #include <SDL2/SDL.h>

@@ -1,7 +1,7 @@
 #pragma once
 
 // Toaster
-#include <DebugRenderer.h>
+#include <Toaster/DebugRenderer.h>
 
 // Box2d
 #include <box2d/box2d.h>

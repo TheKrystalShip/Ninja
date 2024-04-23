@@ -1,9 +1,9 @@
 #pragma once
 
 // Toaster
-#include <Texture2D.h>
-#include <SpriteBatch.h>
-#include <Vertex.h>
+#include <Toaster/Texture2D.h>
+#include <Toaster/SpriteBatch.h>
+#include <Toaster/Vertex.h>
 
 // Box2D
 #include <box2d/box2d.h>

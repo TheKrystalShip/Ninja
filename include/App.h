@@ -2,7 +2,7 @@
 
 #include "GameplayScreen.h"
 
-#include "IMainGame.h"
+#include <Toaster/IMainGame.h>
 
 #include <memory>
 
