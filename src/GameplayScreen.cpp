@@ -58,7 +58,7 @@ namespace Ninja
         std::uniform_real_distribution<float> sizeDist(0.5f, 2.5f);
         std::uniform_int_distribution<int> colorDist(0, 255);
 
-        const int NUM_BOXES = 50;
+        const int NUM_BOXES = 15;
 
         for (int i = 0; i < NUM_BOXES; i++)
         {

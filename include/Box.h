@@ -1,13 +1,13 @@
 #pragma once
 
 // Toaster
-#include "GLTexture.h"
-#include "SpriteBatch.h"
-#include "Vertex.h"
-#include "GLTexture.h"
+#include <Texture2D.h>
+#include <SpriteBatch.h>
+#include <Vertex.h>
 
-// External
-#include "box2d/box2d.h"
+// Box2D
+#include <box2d/box2d.h>
+// GLM
 #include <GLM/glm.hpp>
 
 namespace Ninja
@@ -18,7 +18,7 @@ namespace Ninja
         Box();
         virtual ~Box();
 
-        void init(b2World *world, const glm::vec2 position, const glm::vec2 &dimensions, Toaster::GLTexture texture, Toaster::ColorRGBA8 color, bool fixedRotation = false, glm::vec4 uvRect = glm::vec4(0.0f, 0.0f, 1.0f, 1.0f));
+        void init(b2World *world, const glm::vec2 position, const glm::vec2 &dimensions, Toaster::Texture2D texture, Toaster::ColorRGBA8 color, bool fixedRotation = false, glm::vec4 uvRect = glm::vec4(0.0f, 0.0f, 1.0f, 1.0f));
 
         void draw(Toaster::SpriteBatch &spriteBatch);
 
@@ -33,6 +33,6 @@ namespace Ninja
         b2Fixture *_fixture = nullptr;
         glm::vec2 _dimensions;
         Toaster::ColorRGBA8 _color;
-        Toaster::GLTexture _texture;
+        Toaster::Texture2D _texture;
     };
 }

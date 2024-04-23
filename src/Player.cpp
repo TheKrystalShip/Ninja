@@ -3,6 +3,7 @@
 // Toaster
 #include <DebugRenderer.h>
 #include <ResourceManager.h>
+#include <Texture2D.h>
 
 #include <GLM/glm.hpp>
 #include <SDL2/SDL.h>
@@ -19,7 +20,7 @@ namespace Ninja
 
     void Player::init(b2World *world, const glm::vec2 position, const glm::vec2 &drawDims, const glm::vec2 &collisionDims, Toaster::ColorRGBA8 color)
     {
-        Toaster::GLTexture texture = Toaster::ResourceManager::getTexture("assets/textures/blue_ninja.png");
+        Toaster::Texture2D texture = Toaster::ResourceManager::getTexture("assets/textures/blue_ninja.png");
         _color = color;
         _drawDims = drawDims;
 
@@ -43,7 +44,7 @@ namespace Ninja
         int tileIndex = 0;
         glm::vec2 velocity(body->GetLinearVelocity().x, body->GetLinearVelocity().y);
 
-        float animationSpeed = 0.2f;
+        float animationSpeed = 0.25f;
 
         if (_isOnGround) // Player is touching the ground
         {

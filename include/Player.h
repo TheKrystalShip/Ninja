@@ -2,9 +2,9 @@
 
 #include "Capsule.h"
 
+// Toaster
 #include <InputManager.h>
 #include <SpriteBatch.h>
-#include <GLTexture.h>
 #include <TileSheet.h>
 
 namespace Ninja

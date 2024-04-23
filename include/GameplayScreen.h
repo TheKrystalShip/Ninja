@@ -8,13 +8,13 @@
 #include <Camera2D.h>
 #include <DebugRenderer.h>
 #include <GLSLProgram.h>
-#include <GLTexture.h>
+#include <Texture2D.h>
 #include <IGameScreen.h>
 #include <SpriteBatch.h>
 #include <Window.h>
 
-// External
-#include "box2d/box2d.h"
+// Box2D
+#include <box2d/box2d.h>
 
 // STD
 #include <memory>
@@ -49,7 +49,7 @@ namespace Ninja
         Toaster::SpriteBatch _spriteBatch;
         Toaster::GLSLProgram _program;
         Toaster::Camera2D _camera;
-        Toaster::GLTexture _texture;
+        Toaster::Texture2D _texture;
         Toaster::Window *_window = nullptr;
         Toaster::DebugRenderer _debugRenderer;
 

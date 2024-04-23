@@ -10,7 +10,7 @@ namespace Ninja
     {
     }
 
-    void Box::init(b2World *world, const glm::vec2 position, const glm::vec2 &dimensions, Toaster::GLTexture texture, Toaster::ColorRGBA8 color, bool fixedRotation /* = false */, glm::vec4 uvRect /* = glm::vec4(0.0f, 0.0f, 1.0f, 1.0f)*/)
+    void Box::init(b2World *world, const glm::vec2 position, const glm::vec2 &dimensions, Toaster::Texture2D texture, Toaster::ColorRGBA8 color, bool fixedRotation /* = false */, glm::vec4 uvRect /* = glm::vec4(0.0f, 0.0f, 1.0f, 1.0f)*/)
     {
         _dimensions = dimensions;
         _color = color;
